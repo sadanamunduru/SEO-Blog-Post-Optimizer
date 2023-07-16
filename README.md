@@ -31,8 +31,8 @@ The SEO Blog Post Optimizer utilizes various libraries and technologies, includi
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/seo-blog-post-optimizer.git
-cd seo-blog-post-optimizer
+git clone https://github.com/sadanamunduru/SEO-Blog-Post-Optimizer
+cd SEO-Blog-Post-Optimizer
 
 
 2. Create a virtual environment (optional but recommended):
