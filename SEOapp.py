@@ -22,6 +22,7 @@ import plotly.io as pio
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words("english"))
 
