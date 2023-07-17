@@ -10,3 +10,4 @@ matplotlib==3.7.2
 pandas==2.0.3
 altair==5.0.1
 plotly==5.15.0
+googlesearch-python==1.2.3
