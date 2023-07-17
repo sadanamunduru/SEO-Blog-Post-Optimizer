@@ -178,10 +178,19 @@ def generate_serp_preview(title, description, content):
 
     serp_preview = f"<div style='background-color: #f8f9fa; padding: 10px;'>"
     serp_preview += f"<h3 style='margin: 0;'><a href='#'>{title}</a></h3>"
-    serp_preview += f"<cite style='color: #006621; font-size: 14px;'>www.example.com</cite>"
+    serp_preview += f"<cite style='color: #006621; font-size: 14px;'>www.yourblog.com</cite>"
     serp_preview += f"<p style='margin: 0; color: #545454;'>{description}</p>"
     serp_preview += f"<p>{content}</p>"
     serp_preview += f"</div>"
+
+    # Real-time search results preview (based on your title and description)
+    query = f"{title} {description}"  # Use title and description as the search query
+    search_results = list(search(query, num_results=3))
+    if search_results:
+        serp_preview += "<h4>Real-time Search Preview:</h4>"
+        for index, result in enumerate(search_results):
+            serp_preview += f"<p>Result {index+1}: <a href='{result}'>{result}</a></p>"
+    
     return serp_preview
 
 # Function to generate bar chart
