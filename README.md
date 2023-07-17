@@ -4,7 +4,7 @@ This project is based on the Hackathon challenge conducted by Epsilon on Blog Po
 
 # SEO Blog Post Optimizer
 
-SEO Blog Post Optimizer is a Python application that helps optimize blog post content for search engine optimization (SEO). It provides analysis and recommendations for keyword usage, on-page optimization, competitor analysis, and more.
+SEO Blog Post Optimizer AI Tool is a Python application that helps optimize blog post content for search engine optimization (SEO). It provides analysis and recommendations for keyword usage, on-page optimization, competitor analysis, and more.
 
 ## Problem Statement
 
@@ -32,7 +32,7 @@ The SEO Blog Post Optimizer utilizes various libraries and technologies, includi
 1. Clone the repository:
 
 git clone https://github.com/sadanamunduru/SEO-Blog-Post-Optimizer
-cd SEO-Blog-Post-Optimizer
+cd seo-blog-post-optimizer
 
 
 2. Create a virtual environment (optional but recommended):
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 streamlit run SEOapp.py
 
 
-5. Access the application in your browser at `http://localhost:8501`.
+5. Access the application in your browser at `http://localhost:8501` or wait for the chrome local host window to triger
 
 Choose the desired option (enter blog post content or paste web page link) and provide the necessary inputs.
 
@@ -83,15 +83,16 @@ The SEO Blog Post Optimizer relies on the following main dependencies:
 
 For a complete list of dependencies and their versions, refer to the `requirements.txt` file.
 
-## Usage
+##  Web App Usage
 
-1. Open the application in your browser at `http://localhost:8501` or check your default port in the browser as it triggers a new window tab.
+1. https://seo-blog-post-optimizer-5qn1p0v2wg2.streamlit.app/
 2. Select an option: "Enter blog post content" or "Paste web page link".
 3. Provide the necessary inputs based on the selected option.
-4. If an error occurs related to nltk stopwords, press control+shift+p in your VS Code and clear the cache and restart the editor or window and it runs as usual.
-5. View the keyword analysis, content analysis, on-page optimization recommendations, and competitor analysis.
-6. Explore the recommended keywords and SERP preview.
-7. Optimize your blog post based on the insights and recommendations provided.
+4. View the keyword analysis, content analysis, on-page optimization recommendations, and competitor analysis.
+5. Explore the recommended keywords and SERP preview.
+6. Optimize your blog post based on the insights and recommendations provided.
+
+Note: Web app may have usage limitations and may not be accessible all the time.
 
 ## Contributing
 
@@ -100,7 +101,3 @@ Contributions to the SEO Blog Post Optimizer project are welcome! If you find an
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
-
-
